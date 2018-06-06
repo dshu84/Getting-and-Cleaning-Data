@@ -61,6 +61,6 @@ tidy_average <- complete_data %>% ## dplyr library functions
     summarise_all(mean)
 
 ## write the data into csv file
-write.table(tidy_average, "data_set_with_averages.txt")
+write.table(tidy_average, "data_set_with_averages.txt", row.names = FALSE)
 
 ## End of code
