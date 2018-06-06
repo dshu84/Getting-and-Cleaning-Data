@@ -1,8 +1,8 @@
 # Getting and Cleaning Data Course Project
 
-Original description: 
+## Original description: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Source of the original data: 
+## Source of the original data: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The attached R script (run_analysis.R) performs the following to clean 
@@ -44,15 +44,15 @@ inclusive. The names of the attributes are similar to the following:
 
 Below are the variables used in code and also used as column names.
 Codebook summary table			
-Label	Variable	Class	# unique values
-subject	integer	30
-activity	factor	6
-tBodyAcc-mean-X	numeric	180
-tBodyAcc-mean-Y	numeric	180
-tBodyAcc-mean-Z	numeric	180
-tBodyAcc-std-X	numeric	180
-tBodyAcc-std-Y	numeric	180
-tBodyAcc-std-Z	numeric	180
+Label	Variable	Class	unique values
+subject			integer	30
+activity		factor	6
+tBodyAcc-mean-X		numeric	180
+tBodyAcc-mean-Y		numeric	180
+tBodyAcc-mean-Z		numeric	180
+tBodyAcc-std-X		numeric	180
+tBodyAcc-std-Y		numeric	180
+tBodyAcc-std-Z		numeric	180
 tGravityAcc-mean-X	numeric	180
 tGravityAcc-mean-Y	numeric	180
 tGravityAcc-mean-Z	numeric	180
@@ -68,9 +68,9 @@ tBodyAccJerk-std-Z	numeric	180
 tBodyGyro-mean-X	numeric	180
 tBodyGyro-mean-Y	numeric	180
 tBodyGyro-mean-Z	numeric	180
-tBodyGyro-std-X	numeric	180
-tBodyGyro-std-Y	numeric	180
-tBodyGyro-std-Z	numeric	180
+tBodyGyro-std-X		numeric	180
+tBodyGyro-std-Y		numeric	180
+tBodyGyro-std-Z		numeric	180
 tBodyGyroJerk-mean-X	numeric	180
 tBodyGyroJerk-mean-Y	numeric	180
 tBodyGyroJerk-mean-Z	numeric	180
@@ -78,7 +78,7 @@ tBodyGyroJerk-std-X	numeric	180
 tBodyGyroJerk-std-Y	numeric	180
 tBodyGyroJerk-std-Z	numeric	180
 tBodyAccMag-mean	numeric	180
-tBodyAccMag-std	numeric	180
+tBodyAccMag-std		numeric	180
 tGravityAccMag-mean	numeric	180
 tGravityAccMag-std	numeric	180
 tBodyAccJerkMag-mean	numeric	180
@@ -87,12 +87,12 @@ tBodyGyroMag-mean	numeric	180
 tBodyGyroMag-std	numeric	180
 tBodyGyroJerkMag-mean	numeric	180
 tBodyGyroJerkMag-std	numeric	180
-fBodyAcc-mean-X	numeric	180
-fBodyAcc-mean-Y	numeric	180
-fBodyAcc-mean-Z	numeric	180
-fBodyAcc-std-X	numeric	180
-fBodyAcc-std-Y	numeric	180
-fBodyAcc-std-Z	numeric	180
+fBodyAcc-mean-X		numeric	180
+fBodyAcc-mean-Y		numeric	180
+fBodyAcc-mean-Z		numeric	180
+fBodyAcc-std-X		numeric	180
+fBodyAcc-std-Y		numeric	180
+fBodyAcc-std-Z		numeric	180
 fBodyAccJerk-mean-X	numeric	180
 fBodyAccJerk-mean-Y	numeric	180
 fBodyAccJerk-mean-Z	numeric	180
@@ -102,11 +102,11 @@ fBodyAccJerk-std-Z	numeric	180
 fBodyGyro-mean-X	numeric	180
 fBodyGyro-mean-Y	numeric	180
 fBodyGyro-mean-Z	numeric	180
-fBodyGyro-std-X	numeric	180
-fBodyGyro-std-Y	numeric	180
-fBodyGyro-std-Z	numeric	180
+fBodyGyro-std-X		numeric	180
+fBodyGyro-std-Y		numeric	180
+fBodyGyro-std-Z		numeric	180
 fBodyAccMag-mean	numeric	180
-fBodyAccMag-std	numeric	180
+fBodyAccMag-std		numeric	180
 fBodyBodyAccJerkMag-mean	numeric	180
 fBodyBodyAccJerkMag-std	numeric	180
 fBodyBodyGyroMag-mean	numeric	180
