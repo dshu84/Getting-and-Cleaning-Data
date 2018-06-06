@@ -20,7 +20,7 @@ LAYING
 The script also appropriately labels the data set with descriptive names: all feature names (attributes) and activity names are converted to lower case, underscores and brackets () are removed. Then it merges the 10299x66 data frame containing features with 10299x1 data frames containing activity labels and subject IDs. The result is saved as merged_clean_data.txt, a 10299x68 data frame such that the first column contains subject IDs, the second column activity names, and the last 66 columns are measurements. Subject IDs are integers between 1 and 30 inclusive. The names of the attributes are similar to the following:
 
 Below are the variables used in code and also used as column names.
-Codebook summary table			
+## Codebook summary table			
 Variable				Class	no. unique values
 subject					integer	30
 activity				factor	6
@@ -62,8 +62,8 @@ tBodyAccJerkMag-mean	numeric	180
 tBodyAccJerkMag-std		numeric	180
 tBodyGyroMag-mean		numeric	180
 tBodyGyroMag-std		numeric	180
-tBodyGyroJerkMag-mean	numeric	180
-tBodyGyroJerkMag-std	numeric	180
+tBodyGyroJerkMag-mean		numeric	180
+tBodyGyroJerkMag-std		numeric	180
 fBodyAcc-mean-X			numeric	180
 fBodyAcc-mean-Y			numeric	180
 fBodyAcc-mean-Z			numeric	180
@@ -85,9 +85,9 @@ fBodyGyro-std-Z			numeric	180
 fBodyAccMag-mean		numeric	180
 fBodyAccMag-std			numeric	180
 fBodyBodyAccJerkMag-mean	numeric	180
-fBodyBodyAccJerkMag-std	numeric	180
-fBodyBodyGyroMag-mean	numeric	180
-fBodyBodyGyroMag-std	numeric	180
+fBodyBodyAccJerkMag-std		numeric	180
+fBodyBodyGyroMag-mean		numeric	180
+fBodyBodyGyroMag-std		numeric	180
 fBodyBodyGyroJerkMag-mean	numeric	180
 fBodyBodyGyroJerkMag-std	numeric	180
 
