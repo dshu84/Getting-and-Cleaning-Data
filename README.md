@@ -12,7 +12,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Below particulars are uploaded to the repository:
 1. run_analysis.R : code for downloading data, loading it in R, clean 
 and consolidating into one set and writing back to .txt file
-2. Code_Book.txt : Lists all variables and summarizes calculated, along 
+2. Code_Book.md : Lists all variables and summarizes calculated, along 
 with units, and any other relevant information
 3. data_set_with_averages.txt : final tidy data set in .txt file
 
